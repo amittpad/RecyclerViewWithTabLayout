@@ -13,7 +13,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class OnlineShopping extends AppCompatActivity {
     private static Toolbar toolbar;
     private static ViewPager viewPager;
     private static TabLayout tabLayout;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_online_shopping);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
     //Setting View Pager
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new DummyFragment("ANDROID"), "ANDROID");
-        adapter.addFrag(new DummyFragment("iOS"), "iOS");
-        adapter.addFrag(new DummyFragment("WINDOWS"), "WINDOWS");
+        adapter.addFrag(new OnlineShopLoadFragment("ELECTRONICS"), "ELECTRONICS");
+        adapter.addFrag(new OnlineShopLoadFragment("CLOTHING"), "CLOTHING");
+        adapter.addFrag(new OnlineShopLoadFragment("GROCERY"), "GROCERY");
         viewPager.setAdapter(adapter);
     }
 

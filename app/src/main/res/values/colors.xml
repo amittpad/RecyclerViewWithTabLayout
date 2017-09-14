@@ -5,6 +5,22 @@
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>
-    <color name="colorAccent">#C62828</color>
     <color name="blue">#03A9F4</color>
+    <color name="colorAccent">#7cb342</color>
+    <color name="colorTextLight">#fafafa</color>
+    <color name="colorTextHint">#e0e0e0</color>
+    <color name="colorGray">#eeeeee</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorTextHeadingBackground">#327cb342</color>
+    <color name="colorTextSubHeadingBackground">#eeeeee</color>
+    <color name="colorButtonInActive">#E0E0E0</color>
+    <color name="colorButtonActive">#7cb342</color>
+    <color name="colorLoginText">#c7c4c4</color>
+    // Bottom navigation
+    <color name="white_trans">#99FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBottomNavigationInactive">#d4d4d4</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+    <color name="colorText">#616161</color>
 </resources>

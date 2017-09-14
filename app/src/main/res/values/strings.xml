@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RecyclerViewWithTabLayout</string>
+    // add Strike through in OnlineShopping
+    <string name="strike_351_00_strike"><strike> 351.00 </strike></string>
+    <string name="strike_25000_strike"><strike> 25,500 </strike></string>
+    <string name="strike_rupees_strike"><strike> \u20B9 </strike></string>
+
 </resources>
